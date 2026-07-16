@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Oluwasegun Timothy Adebisi</title>
+  <meta name="description" content="," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary">
+      <a href="index.html" class="nav-brand">Cyberpreacher01<span class=""></span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="./planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+ 
+    <section class="container reveal" style="padding-bottom: 0;">
+      <p class="eyebrow">Projects</p>
+      <h1>Hands-on cybersecurity projects</h1>
+      <p style="margin-top: 12px; max-width: 65ch;">
+        Each project showcases a different area of cybersecurity, including cloud security, security operations, and security architecture. 
+        Through these projects,
+         I applied theoretical concepts to practical scenarios, strengthening my technical, analytical, and problem-solving skills.
+      </p>
+    </section>
+
+    
+    <section class="container reveal" style="padding-bottom: 0;">
+      <div class="filter-bar" role="group" aria-label="Filter projects by focus area">
+        <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="web" type="button">AWS Cloud Security Monitoring System</button>
+        <button class="filter-btn" data-filter="auth" type="button">AgentTesla Malware Incident Investigation</button>
+        <button class="filter-btn" data-filter="human" type="button">Secure FinTech Security Architecture</button>
+      </div>
+    </section>
+
+    
+    <section class="container reveal">
+      <div class="project-grid">
+
+      
+        <article class="card project-card" data-category="web">
+          <div class="project-thumb" data-thumb>
+            <img data-thumb-img src="/aws image 1.jpg" alt="" />
+            <div class="project-thumb-fallback" data-thumb-fallback hidden>Screenshot coming soon</div>
+            <span class="severity-badge severity-critical project-badge">Cloud Security</span>
+          </div>
+          <h3>AWS Cloud Security Monitoring System</h3>
+          <p>
+            Designed and implemented a cloud security monitoring solution using AWS services to detect 
+            suspicious activities, monitor security events, and generate automated alerts through centralized logging and monitoring.
+
+
+          </p>
+          <a style="margin-top: 24px;" href="https://drive.google.com/file/d/1atj5Q8jltLHhBDB7MWreBnNuUjWcXAYS/view?usp=drive_link" class="btn btn-primary project-link">
+            Explore Project →
+          </a>
+        </article>
+
+       
+        <article class="card project-card" data-category="auth">
+          <div class="project-thumb" data-thumb>
+            <img data-thumb-img src="/soc 1 image.jpg" alt="" />
+            <div class="project-thumb-fallback" data-thumb-fallback hidden>Screenshot coming soon</div>
+            <span class="severity-badge severity-high project-badge">Security Operations</span>
+          </div>
+          <h3>AgentTesla Malware Incident Investigation</h3>
+          <p>
+            Conducted a simulated Security Operations (SOC) investigation into an AgentTesla malware attack by 
+            analyzing network traffic, email artifacts, and indicators of compromise to reconstruct the attack 
+            timeline and recommend mitigation measures.
+          </p>
+          <a href="https://drive.google.com/drive/folders/1jf-abfMkpoHTHDHBoz_QP_otp74-BAdy?usp=sharing" class="btn btn-primary project-link">
+            See Investigation Report →
+          </a>
+        </article>
+
+      
+        <article class="card project-card" data-category="human">
+          <div class="project-thumb" data-thumb>
+            <img data-thumb-img src="/security image 1.jpg" alt="" />
+            <div class="project-thumb-fallback" data-thumb-fallback hidden></div>
+            <span class="severity-badge severity-medium project-badge">Security Architecture</span>
+          </div>
+         <h3>Secure FinTech Security Architecture</h3>
+          <p>
+            Designed a secure architecture for a fintech organization by identifying security risks, 
+            defining security controls, and recommending 
+            best practices to protect financial systems, customer data, and critical business services.
+
+            <a href="https://drive.google.com/file/d/19LD3nVwAJ1vdnqPvCLcr7foiR_bUrsyq/view?usp=drive_link" class="btn btn-primary project-link" style="margin-top: 38px;">
+            View Architecture Design →
+          </a>
+          </p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">&copy; 2026 Oluwasegun Timothy Adebisi. Built with HTML, CSS &amp; JavaScript.</p>
+     <div class="footer-links">
+  <a href="https://www.linkedin.com/in/oluwasegun-timothy-a0ab693b1" target="_blank" rel="noopener noreferrer">Linkedin ↗</a>
+  <a href="mailto:adebisioluwasegun62@gmail.com">Email</a>
+ <a href="https://github.com/Cyberpreacher01">Github</a>
+</div>
+    </div>
+  </footer>
+
+ 
+
+  <script src="./main.js"></script>
+  <script src="./project.js"></script>
+</body>
+</html>
