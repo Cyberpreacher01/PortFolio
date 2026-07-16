@@ -29,9 +29,9 @@ function initTypingAnimation() {
   const el = document.querySelector('[data-typing]');
   if (!el) return;
 
-  
 
-  const phrases = ['Securing Systems.', 'Solving Problems.'];
+
+  const phrases = ['Building Secure Solutions.', 'Solving Real Problems.'];
 
 
 
